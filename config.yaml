@@ -1,0 +1,16 @@
+symbols:
+  - BTCUSDT
+  - ETHUSDT
+  - XRPUSDT
+
+go_score_threshold: 80
+go_off_threshold: 60
+emit_go_off: true
+
+events:
+  path: "./events.jsonl"
+
+runtime:
+  tick_interval_sec: 5
+  snapshot_interval_sec: 30
+  snapshot_top_n: 10
